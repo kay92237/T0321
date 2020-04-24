@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         findViews();
     }
 
+
     private void findViews() {
         name = (EditText) findViewById(R.id.ed_name);
         h = (EditText) findViewById(R.id.ed_high);
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         double h_value =Double.parseDouble(h.getText().toString());
         double bmi = w_value / (h_value/100.0*h_value/100.0);
        // DecimalFormat mDecimalFormat = new DecimalFormat("#,#");
-        b.setText(String.valueOf(bmi+"1"));
+        b.setText(String.valueOf(bmi+"127");
     }
 
 
