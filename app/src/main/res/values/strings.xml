@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">T0321</string>
+    <string name="key">name</string>
+    <string name="show">第二頁</string>
+    <string name="strname">Name</string>
+    <string name="strheight">Height</string>
+    <string name="strweight">Weight</string>
+    <string name="strsubmit">Submit</string>
+    <string name="strnext">NextPage</string>
+    <string name="strTooLow">too low</string>
+    <string name="strToohigh">too high</string>
+    <string name="strstd">good</string>
+    <string name="strHowbmi">Your bmi value</string>
+</resources>
