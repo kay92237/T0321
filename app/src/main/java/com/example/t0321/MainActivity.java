@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         double h_value =Double.parseDouble(h.getText().toString());
         double bmi = w_value / (h_value/100.0*h_value/100.0);
        // DecimalFormat mDecimalFormat = new DecimalFormat("#,#");
-
+        b.setText(String.valueOf(bmi+"1"));
     }
 
 
