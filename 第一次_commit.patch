@@ -1,0 +1,16 @@
+Index: app/src/main/java/com/example/t0321/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/t0321/MainActivity.java	(date 1587697157000)
++++ app/src/main/java/com/example/t0321/MainActivity.java	(date 1587698650000)
+@@ -36,7 +36,7 @@
+         double h_value =Double.parseDouble(h.getText().toString());
+         double bmi = w_value / (h_value/100.0*h_value/100.0);
+        // DecimalFormat mDecimalFormat = new DecimalFormat("#,#");
+-
++       
+     }
+ 
+ 
